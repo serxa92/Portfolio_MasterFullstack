@@ -17,7 +17,7 @@ export const ProjectCard = (project) => `
 <p>${project.description}</p>
 <p class="tech">${project.tech.join(" - ")}</p>
 <div class  = "botones-card"><a href=${project.github}>
-<img src="./public/icons/github.jpg" alt="GitHub Icon" />
+<img src="/icons/github.jpg" alt="GitHub Icon" />
 </a>
 <a href=${project.link}>
 <img src="./public/icons/adjunto.jpg" alt="Link icon" />
