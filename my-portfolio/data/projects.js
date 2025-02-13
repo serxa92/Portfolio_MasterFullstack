@@ -18,13 +18,13 @@ export const projects = [
       link: "https://proyecto1-nike.vercel.app/",
     },
     {
-      title: "Third project",
-      description: "This is the description of my third project",
+      title: "Portfolio",
+      description: "This is a portfolio made with html, css and javascript. I hope you like it!",
       image:
-        "https://images.unsplash.com/photo-1669570094762-828f3dfaf675?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3270&q=80",
-      tech: ["React", "HTML5", "CSS3", "JavaScript"],
-      github: "http://github.com/myuser/proyecto3",
-      link: "www.proyecto1.com",
+        "/images/portfolio.png",
+      tech: ["HTML5", "CSS3", "JavaScript"],
+      github: "https://github.com/serxa92/Portfolio-Vite",
+      link: "https://sergioagulla.vercel.app/",
     },
     {
       title: "Fourth project",
