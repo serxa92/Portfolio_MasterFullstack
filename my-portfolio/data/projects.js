@@ -9,7 +9,7 @@ export const projects = [
       link: "https://historiadelasairmax.vercel.app/",
     },
     {
-      title: "Nike look a like website",
+      title: "Nike look alike website",
       description: " This is a landing page that I created to look like the Nike website, as part of the landing page project. I hope you like it!",
       image:
         "/images/nike.png",
