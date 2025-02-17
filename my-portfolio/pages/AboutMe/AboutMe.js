@@ -9,7 +9,7 @@ export const AboutMe = () => {
   
       <section id="about" class = "efecto">
         <h2 class = "about2">Know Me</h2>
-        <img class = "yo" src="/images/Photoroom_20240813_190311.JPEG">
+        <img class = "yo" src="/images/silueta.png">
         <p class = "description">Hey there! I’m a FullStack developer from Galicia, Spain, with a huge passion for video games, movies, music, sneakers, and nature. Ever since I wrote my first line of code, I knew I wanted to create things that people can see, feel, and interact with.
 
 I love crafting smooth, dynamic, and accessible experiences—whether it’s a sleek interface, an engaging user interaction, or something that simply makes people go "Wow!". Every project is an opportunity to create something that resonates with people in a unique way.
