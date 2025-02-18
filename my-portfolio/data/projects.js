@@ -19,7 +19,7 @@ export const projects = [
     },
     {
       title: "Portfolio",
-      description: "This is a portfolio made with html, css and javascript. I hope you like it!",
+      description: "This is my first project made with Javascript, HTML5 and CSS3. It is a portfolio that I created to showcase my projects. I hope you like it!",
       image:
         "/images/portfolio.png",
       tech: ["HTML5", "CSS3", "JavaScript"],
@@ -39,7 +39,7 @@ export const projects = [
       title: "Fifth project",
       description: "This is the description of my fifth project",
       image:
-        "https://images.unsplash.com/photo-1665686306574-1ace09918530?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3387&q=80",
+        "https://images.unsplash.com/photo-1561883088-039e53143d73?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       tech: ["React", "HTML5", "CSS3", "JavaScript"],
       github: "http://github.com/myuser/proyecto5",
       link: "www.proyecto1.com",

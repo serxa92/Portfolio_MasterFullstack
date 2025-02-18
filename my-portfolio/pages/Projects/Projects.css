@@ -7,15 +7,16 @@
   gap: 2rem;
   position: relative;
   overflow: hidden;
+  
 }
 
-@media (max-width: 770px) {
-}
+
 
 .projects > h2 {
   font-weight: 100;
   text-transform: uppercase;
   font-size: 0.8rem;
+  
   
 }
 
@@ -24,6 +25,7 @@
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 8rem;
   z-index: 1000;
+  
   
 }
 @media (max-width: 847px) {

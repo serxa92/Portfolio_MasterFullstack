@@ -16,6 +16,31 @@ I love crafting smooth, dynamic, and accessible experiences—whether it’s a s
 
 Beyond coding, I draw inspiration from nature. Whether it’s a walk in the woods or just taking a moment to disconnect and recharge, there’s always something that motivates me. When I’m not working on projects, you’ll probably find me exploring new games, diving into movie soundtracks, or hunting for the next must-have sneakers.
 
-Let’s create something awesome!🚀${Button("/icons/instagram.png", "Instagram","https://www.instagram.com/sergioagulla/")}</p>
+Let’s create something awesome!🚀${Button(
+    "/icons/instagram.png",
+    "Instagram",
+    "https://www.instagram.com/sergioagulla/"
+  )}</p>
     </section>`;
+
+  setTimeout(() => {
+    const img = document.querySelector(".yo"); //
+    if (img) {
+      img.addEventListener("mouseenter", function () {
+        img.classList.add("fade");
+        setTimeout(() => {
+          img.src = "/images/Photoroom_20240813_190311.JPEG";
+          img.classList.remove("fade");
+        }, 300);
+      });
+
+      img.addEventListener("mouseleave", function () {
+        img.classList.add("fade");
+        setTimeout(() => {
+          img.src = "/images/silueta.png";
+          img.classList.remove("fade");
+        }, 300);
+      });
+    }
+  }, 0);
 };
