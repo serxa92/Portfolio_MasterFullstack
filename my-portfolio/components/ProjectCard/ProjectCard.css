@@ -9,12 +9,14 @@
   
 }
 .project-card h2 {
-  text-align: justify;
-  direction: ltr;
+  font-family:monospace;
+  color: var(--highlight);
+  text-shadow: rgba(0, 0, 0, 0.851) 0.1rem  0.1rem;
+  font-size: 25px;
 }
 .project-card:hover {
   transform: translateY(-0.5rem);
-  box-shadow: 0 0 1rem 0.2rem black;
+  box-shadow: 0 0 1rem 0.2rem rgba(0, 0, 0, 0.581);
   transition: all 0.3s ease-in-out;
 }
 
@@ -80,6 +82,5 @@
 }
 .detail p {
   font-size: 1.2rem; ;
-  text-align: justify;
-  direction: ltr;
+
 }

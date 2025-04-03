@@ -1,4 +1,4 @@
-import "./Button.css";
+import "./styles.css";
 
 export const Button = (icon, text,url) => `
 <a href = "${url}"><button class="my-btn">

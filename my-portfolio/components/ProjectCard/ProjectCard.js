@@ -1,5 +1,5 @@
 import "./ProjectCard.css";
-import { Button } from "../Button/Button";
+
 
 export const ProjectCard = (project) => `
 <div class="efectito">

@@ -20,13 +20,13 @@
   border-radius: 50%;
   background: radial-gradient(
     circle,
-    rgb(185, 94, 255) 0%,
-    rgb(51, 221, 255) 40%,
-    rgb(242, 23, 107) 80%
+    rgb(0, 238, 255) 0%,
+    rgb(102, 0, 255) 40%,
+    rgb(255, 0, 166) 80%
   );
-  opacity: 0.15;
+  opacity: 0.20;
   filter: blur(25px) brightness(1);
-  animation: energyEffect 10s infinite alternate ease-in-out,
+  animation: energyEffect 8s infinite alternate ease-in-out,
     glowEffect 2s infinite linear;
   transform-origin: center center;
 }

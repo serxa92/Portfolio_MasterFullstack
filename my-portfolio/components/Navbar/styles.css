@@ -201,6 +201,34 @@ nav a {
   transition: all 0.3s ease-in-out;
 }
 
+
+nav ul li a {
+  position: relative;
+  text-decoration: none;
+  padding-bottom: 5px;
+  transition: color 0.5s ease-in-out;
+}
+
+nav ul li a::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--highlight); 
+  transition: width 0.3s ease, left 0.3s ease;
+}
+
+nav ul li a.active::after{
+  width: 100%;
+  left: 0;
+  
+  
+
+}
+
+
 nav a:hover {
   color: var(--highlight);
 }

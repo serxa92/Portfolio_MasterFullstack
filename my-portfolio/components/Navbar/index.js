@@ -1,4 +1,4 @@
-import "./Navbar.css";
+import "./styles.css";
 
 export const changeTheme = () => {
   const themeBtn = document.querySelector(".switch__input");
@@ -16,13 +16,33 @@ export const changeText = () => {
     themeBtn.innerText = "☀️";
   }
 };
+// Espera a que el documento HTML se haya cargado completamente antes de ejecutar el script
+document.addEventListener("DOMContentLoaded", function () {
+
+  // Selecciona todos los enlaces dentro de la lista de navegación
+  const links = document.querySelectorAll("nav ul li a");
+
+  // Recorre cada enlace y le añade un evento de escucha al hacer clic
+  links.forEach((link) => {
+    link.addEventListener("click", function () {
+
+      // Recorre todos los enlaces y elimina la clase 'active' para asegurarse de que solo un enlace esté activo a la vez
+      links.forEach((item) => item.classList.remove("active"));
+
+      // Agrega la clase 'active' únicamente al enlace que ha sido clicado
+      this.classList.add("active");
+    });
+  });
+
+});
+
 
 export const Navbar = () => `
 <nav>
 <h2>Sergio Agulla</h2>
 <ul>
     <li>
-        <a href="#" id="homelink">Home</a>
+        <a href="#" id="homelink" class="active">Home</a>
     </li>
     <li>
         <a href="#" id="projectslink">Projects</a>

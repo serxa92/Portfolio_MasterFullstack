@@ -1,5 +1,5 @@
-import "./Footer.css";
-import { Button } from "../Button/Button";
+import "./styles.css";
+import { Button } from "../Button";
 
 export const Footer = () => `
 
