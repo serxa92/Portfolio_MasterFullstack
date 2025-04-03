@@ -3,7 +3,7 @@
 
 Este es mi portfolio personal, desarrollado como parte del **máster en FullStack Development**. En este proyecto he tenido libertad para personalizar y adaptarlo a mi estilo, mientras aplicaba los conocimientos adquiridos durante el curso. 
 
-<img src="my-portfolio\public\images\iPhone-13-PRO-sergioagulla.vercel.app.png" alt="Logo" width="200"/><img src="my-portfolio\public\images\Macbook-Air-sergioagulla.vercel.app.png" alt="Logo" width="700"/>
+<img src="my-portfolio\public\images\iPhone-13-PRO-sergioagulla.vercel.app.png" alt="Logo" width="200"/><img src="my-portfolio\public\images\Macbook-Air-sergioagulla.vercel.app.png" alt="Logo" width="500"/>
 
 
 
