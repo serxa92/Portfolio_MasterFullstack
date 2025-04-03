@@ -44,5 +44,5 @@ Puedes ver el avance del proyecto y su evolución aquí:
 
 ## 📈 Evolución Futura
 
-Este portfolio se actualizará con cada nuevo proyecto y experiencia que adquiera, reflejando mis mejoras y habilidades como desarrollador. ¡Este es solo el comienzo! 🚀
+Este portfolio se actualizará con cada nuevo proyecto y experiencia que adquiera, reflejando mis mejoras y habilidades como desarrollador.
 
