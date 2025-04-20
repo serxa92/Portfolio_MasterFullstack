@@ -1,5 +1,4 @@
 import "./style.css";
-import { changeTheme } from "../components/Navbar";
 import { linkPage } from "../utils/linkPage";
 import { Navbar } from "../components/Navbar";
 import { Footer } from "../components/Footer";

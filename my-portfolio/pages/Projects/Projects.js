@@ -10,10 +10,11 @@ export const Projects = () => {
   main.innerHTML = `
     <section class="projects">
     
-    ${Divider()}
+  
     <div class="projects-container"></div>
   
-    </section>`;
+    </section>
+    ${Divider()}`;
   const container = document.querySelector(".projects-container");
   for (const project of projects) {
     const figure = document.createElement("figure");

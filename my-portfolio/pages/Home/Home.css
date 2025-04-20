@@ -1,3 +1,4 @@
+
 .home {
   padding: 0 8rem;
   height: 80vh;
@@ -5,8 +6,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  gap: 3rem;
   position: relative;
+  gap: 3rem;
+  
   overflow: hidden;
 }
 
@@ -17,6 +19,7 @@
   left: -30%;
   width: 170%;
   height: 170%;
+  z-index: -1;
   border-radius: 50%;
   background: radial-gradient(
     circle,
@@ -70,13 +73,18 @@
 }
 
 .home > h1 {
-  font-size: 5.5rem;
+  font-size: 6rem;
   background: linear-gradient(to right, #9845e8 0%, #33d2ff 50%, #dd5789 100%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   z-index: 1;
   transition: all 0.5s ease-in-out; 
+  cursor: pointer;
+}
+p{
+  font-size: 1.2rem;
+  z-index: 1;
 }
 .home > h1:hover {
   transform: scale(1.1);
@@ -96,7 +104,10 @@
 @media (max-width: 700px) {
   .home {
     padding: 2rem;
-    height: auto;
+  
     z-index: 1;
+  }
+  .home > h1{
+    font-size: 5rem;
   }
 }
