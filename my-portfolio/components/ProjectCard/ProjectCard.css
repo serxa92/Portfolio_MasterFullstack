@@ -11,10 +11,10 @@
 }
 
 .project-card h2 {
-  font-family:fantasy;
+  font-family:monospace;
   display: flex;
   align-items: center;
-  font-weight: 400;
+  font-weight: bold;
   text-decoration: underline;
   color: var(--highlight);
   text-shadow: rgba(0, 0, 0, 0.851) 0.1rem 0.1rem;
