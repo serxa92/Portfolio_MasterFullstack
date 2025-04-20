@@ -18,6 +18,4 @@ linkPage("#aboutme", AboutMe);
 
 Home();
 
-changeTheme();
-
 footer.insertAdjacentHTML("beforebegin", Divider());
