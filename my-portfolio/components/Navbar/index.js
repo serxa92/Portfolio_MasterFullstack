@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 export const Navbar = () => `
 <nav>
-<h2> <a href="https://sergioagulla.vercel.app/" class="h2nav">S</a></h2>
+<h2> <a href="https://sergioagulla.vercel.app/" class="h2nav">Sergio Agulla</a></h2>
 <ul>
     <li>
         <a href="#" id="homelink" class="active">Home</a>
