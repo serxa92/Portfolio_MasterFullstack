@@ -1,7 +1,8 @@
-# Portfolio - Sergio Agulla
+# Portfolio - Ejemplo
+
 ## 🚀 Introducción
 
-Este es mi portfolio personal, desarrollado como parte del **máster en FullStack Development**. En este proyecto he tenido libertad para personalizar y adaptarlo a mi estilo, mientras aplicaba los conocimientos adquiridos durante el curso. 
+Este es un ejemplo de portfolio, desarrollado como parte del **máster en FullStack Development**. En este proyecto he tenido libertad para personalizar y adaptarlo a mi estilo, mientras aplicaba los conocimientos adquiridos durante el curso. 
 
 <img src="my-portfolio\public\images\iPhone-13-PRO-sergioagulla.vercel.app (1).png" alt="Mobile" width="200"/><img src="my-portfolio\public\images\Macbook-Air-sergioagulla.vercel.app (1).png" alt="Laptop" width="550"/>
 
@@ -24,10 +25,10 @@ El objetivo de este portfolio es reflejar mis avances y proyectos mientras sigo 
 - **Personalización**: Cada sección ha sido diseñada y ajustada según mis intereses y lo aprendido en el máster.
 - **Proyectos en Evolución**: Estoy trabajando constantemente en nuevos proyectos que añadiré al portfolio.
 
-## 🔗 Enlace al Proyecto
+## 🔗 Portfolio personal
 
-Puedes ver el avance del proyecto y su evolución aquí:  
-[🌐 Mi Portfolio](https://sergioagulla.vercel.app/)
+Mi portfolio personal es este:  
+[🌐 Mi Portfolio](https://sergioagulla.dev)
 
 ## 🛠️ Herramientas y Tecnologías
 
@@ -42,7 +43,4 @@ Puedes ver el avance del proyecto y su evolución aquí:
 
 </div>
 
-## 📈 Evolución Futura
-
-Este portfolio se actualizará con cada nuevo proyecto y experiencia que adquiera, reflejando mis mejoras y habilidades como desarrollador.
 
